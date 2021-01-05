@@ -2,6 +2,7 @@
 
 
 /*************-**************************************/
+[code]
 AndroidAPS$ ./gradlew app:assembleRelease
 Starting a Gradle Daemon (subsequent builds will be faster)
 
@@ -164,5 +165,6 @@ See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:comm
 
 BUILD SUCCESSFUL in 7m 57s
 207 actionable tasks: 205 executed, 2 up-to-date
+[/code]
 
 /*************-**************************************/
