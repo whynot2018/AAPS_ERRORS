@@ -167,3 +167,45 @@ BUILD SUCCESSFUL in 7m 57s
 207 actionable tasks: 205 executed, 2 up-to-date
 ```
 /*************-**************************************/
+```
+$ ./gradlew app:installFullDebug
+
+> Configure project :app
+--------------
+isMaster: true
+allCommited: true
+--------------
+Download https://github.com/MilosKozak/danars-support-lib/archive/master.zip
+
+> Task :app:compileFullDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:stripFullDebugDebugSymbols UP-TO-DATE
+WARNING: Compatible side by side NDK version was not found. Default is 20.0.5594570.
+Compatible side by side NDK version was not found. Default is 20.0.5594570.
+
+> Task :app:installFullDebug FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:installFullDebug'.
+> com.android.builder.testing.api.DeviceException: No connected devices!
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 42s
+33 actionable tasks: 11 executed, 22 up-to-date
+```
+/*************-**************************************/
+
